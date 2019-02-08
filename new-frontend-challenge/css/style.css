@@ -1,0 +1,70 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  font-family: "SF Pro Text", system;
+  font-size: 12px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 400px;
+  background-color: white;
+}
+
+.route-block {
+  background-color: #D0EEF3;
+  border-radius: 20px;
+  width: 80%;
+  text-align: center;
+  align: center;
+  margin: 0 auto;
+}
+
+.header {
+  padding-top: 20px;
+  padding-bottom: 1px;
+  text-align: center;
+  background-color: #F9F9F9;
+  border-bottom: solid 0.5px #D8D8D8;
+}
+
+.header img {
+position: absolute;
+right: 0;
+left: 0;
+}
+
+.h2 {
+  font-size: 14px;
+  text-align: left;
+}
+
+.routepic {
+  border: solid .5px #DADADA;
+  border-radius: 12px;
+  width: 60px;
+  height: 60px;
+  padding: 15px;
+
+}
+
+.routepic h3 {
+  margin: auto;
+  text-align: center;
+}
+
+
+.footer {
+  background-color: #F9F9F9;
+  width: 100%;
+  color: ##8A8A8F;
+}
+
+.footer ul {
+  text-align: center;
+  display: inline-flex;
+
+}
