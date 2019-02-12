@@ -9,96 +9,98 @@
   </head>
   <body>
     <div class="container">
-      <div class="header">
-      <img src=Images/mapimage.jpg></img>
-    </div>
-    <section class="buses">
-      <h1>Washington and State</h1>
-    <div class="busroute">
-      <h2>Eastbound</h2>
-      <ul>
-        <li class="line">60</li>
-        <li class="destination">Randolph/Harbor Dr</li>
-          <span class="frequency">
-            Every 20 minutes
-          </span>
-      </ul>
-      <ul>
-        <li class="line">124</li>
-        <li class="destination">Navy Pier</li>
-          <span class="frequency">
-            Every 10 minutes
-          </span>
-      </ul>
-    </div>
-    <div class="busroute">
-      <h2>Northbound</h2>
-      <ul>
-        <li class="line">151</li>
-        <li class="destination">Devon/Clark</li>
-          <span class="frequency">
-            Every 16 minutes
-          </span>
-      </ul>
-    </div>
-    <div class="busroute">
-      <h2>Southbound</h2>
-      <ul>
-        <li class="line">J14</li>
-        <li class="destination">103rd/Stony Island</li>
-          <span class="frequency">
-            Every 15 minutes
-          </span>
-      </ul>
-      <ul>
-        <li class="line">124</li>
-        <li class="destination">Navy Pier</li>
-          <span class="frequency">
-            Every 10 minutes
-          </span>
-      </ul>
-    </div>
-    <div class="busroute">
-      <h2>Reroute</h2>
-      <ul>
-        <li class="line">6x</li>
-        <li class="destination">Jackson Park Express</li>
-          <span class="frequency">
-            N/A
-          </span>
-      </ul>
-    </div>
-    <div class="busroute">
-      <h2>Out of service</h2>
+      <section class="header">
+        <ul class="cluster">
+          <li><img src="images/mobile.png"></img></li>
+          <li><img src="images/wifi.png"></img></li>
+          <li><img src="images/battery.png"></img></li>
+        </ul>
+        <p class="time">9:41</p>
+        <h1>Washington & State</h1>
+        <img src="images/mapimage.jpg"></img>
+      </section>
+      <ul class="buses">
+        <li class="busroute">
+          <ul>
+            <li class="line">60</li>
+            <li class="destination">Randolph/Harbor Dr</li>
+            <li class="frequency">Every 20 minutes</li>
+            <li class="eta">3 minutes away</li>
+            <li id="eastbound" class="route">Eastbound</li>
+          </ul>
+          <ul>
+            <li class="line">124</li>
+            <li class="destination">Navy Pier</li>
+            <li class="frequency">Every 10 minutes</li>
+            <li class="eta">5 minutes away</li>
+            <li id="eastbound" class="route">Eastbound</li>
+          </ul>
+        <li class="busroute">
+          <ul>
+            <li class="line">151</li>
+            <li class="destination">Devon/Clark</li>
+            <li class="frequency">Every 16 minutes</li>
+            <li class="eta">15 minutes away</li>
+            <li id="northbound" class="route">Northbound</li>
+          </ul>
+        </li>
+        <li class="busroute">
+          <ul>
+            <li class="line">J14</li>
+            <li class="destination">103rd/Stony Island</li>
+            <li class="frequency">Every 15 minutes</li>
+            <li class="eta">7 minutes away</li>
+            <li id="southbound"class="route">Southbound</li>
+          </ul>
+          <ul>
+          <li class="line">124</li>
+          <li class="destination">Navy Pier</li>
+          <li class="frequency">Every 10 minutes</li>
+          <li class="eta">4 minutes away</li>
+          <li id="southbound" class="route">Southbound</li>
+        </ul>
+      </li>
+      <li class="busroute">
+        <ul>
+          <li class="line">6x</li>
+          <li class="destination">Jackson Park Express</li>
+          <li class="frequency">N/A</li>
+          <li class="eta">-------</li>
+          <li id="reroute" class="route">Reroute</li>
+        </ul>
+      </li>
+      <li class="busroute">
         <ul>
           <li class="line">4</li>
           <li class="destination">Cottage Grove</li>
-            <span class="frequency">
-              Resumes 12:10am
-            </span>
+          <li class="frequency">Resumes 12:10am</li>
+          <li class="eta">-------</li>
+          <li id="out-of-service" class="route">Out of Service</li>
         </ul>
         <ul>
           <li class="line">20</li>
           <li class="destination">Madison</li>
-            <span class="frequency">
-              Resumes 12:10am
-            </span>
+          <li class="frequency">Resumes 12:10am</li>
+          <li class="eta">-------</li>
+          <li id="out-of-service" class="route">Out of Service</li>
         </ul>
         <ul>
           <li class="line">157</li>
           <li class="destination">Streeterville/Taylor</li>
-            <span class="frequency">
-                Resumes 6:00am
-            </span>
+          <li class="frequency">Resumes 6:00am</li>
+          <li class="eta">-------</li>
+          <li id="out-of-service" class="route">Out of Service</li>
         </ul>
-    </div>
+      </li>
+    </ul>
+    <section class="footer">
+      <ul>
+        <li><img src="Images/home.png"></img></li><span>Home</span>
+        <li><img src="Images/recents.png"></img></li><span>Recents</span>
+        <li><img src="Images/saved.png"></img></li><span>Saved</span>
+        <li><img src="Images/Account.png"></img></li><span>Account</span>
+      </ul>
   </section>
-    <div class="iconbar">
-        <img src="Images/home.png"><p>Home</p></img>
-        <img src="Images/recents.png"><p>Recents</p></img>
-        <img src="Images/Favorites.png"><p>Favorites</p></img>
-        <img src="Images/Account.png"><p>Account</p></img>
-    </div>
-  </section>
+  </div>
   </body>
-</html>
+  </html>
